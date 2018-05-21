@@ -1,0 +1,73 @@
+/* wide edit textarea */
+#gollum-editor textarea {
+  height: 36em;
+}
+
+/* wide page */
+@media all and (min-width: 500px) {
+  #wiki-wrapper {
+    max-width: 1200px;
+    padding-left:50px;
+    padding-right:50px; 
+    /*
+    max-width: 1400px;
+    padding-left:200px;
+    padding-right:200px; 
+    */
+  }
+}
+
+/* narrow sidebar */
+.has-rightbar #wiki-sidebar {
+  width: 20%;
+}
+.has-sidebar #wiki-body {
+  width: 75%; 
+}
+
+/* narrom between lines */
+.markdown-body {
+  padding: 1em;
+  line-height: 1.4;
+  overflow: hidden;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin: 1em 0 15px;
+  padding: 0;
+  font-weight: bold;
+  line-height: 1.5;
+  cursor: text;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+
+/* narrow between Indented lines (ul)*/
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body hr {
+  margin: 0px 0;
+}
+
+/* orange button*/
+ ul.actions li {
+   float: left;
+   font-size: 1.1em;
+ }
+.minibutton a {
+  background: -moz-linear-gradient(top, #ffbd4c, #ffbd4c);
+  border: 2px solid #d4d4d4;
+}
+
