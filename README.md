@@ -4,7 +4,7 @@
 - When you start gollum, add option
 
 ```
-gollum --config config.rb
+gollum --config config.rb --css 
 ```
 
 ## Dockerfile
