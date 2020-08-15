@@ -1,4 +1,4 @@
-FROM ruby:2.3.1-alpine
+FROM ruby:2.5.1-alpine
 
 RUN \
   # Refresh package list
@@ -8,7 +8,7 @@ RUN \
   # Equivalent of Debian's build-essential
     alpine-sdk \
   # Install actual dependencies
-  && apk add --no-cache git icu-dev libidn-dev ruby-dev\
+  && apk add --no-cache cmake make git icu-dev libidn-dev ruby-dev openssl-dev\
   # add package for wikicloth
   && gem install idn-ruby\
   # version
