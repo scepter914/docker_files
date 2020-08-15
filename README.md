@@ -1,45 +1,25 @@
 ## Description
 
-- This is config file of gollum 
-
+- This is files for gollum ver5.0
 - When you start gollum, add option
-    - gollum --config config.rb --css 
 
+```
+gollum --config config.rb
+```
 
 ## Dockerfile
 
+- Gollum on docker which can use .mediawiki file
 - Docker hub <https://hub.docker.com/r/scepter914/gollum_files/tags/>
+- docker pull scepter914/gollum_files
 
-- you can use .mediawiki on this container
+## condig file
 
-## config.rb 
-
-1. add table with color on .mediawiki 
-    - example
-
-```
-{|class="wikitable" 
-|- style="border-top:3px solid #f52; background-color:#1ef"
-| hoge || huga
-|-
-| style="background-color:#f8b"| hoge || huga
-|}
-```
-
-2. enable iframe
-
-## custom css
-
-- If you don't like custom, commet out parts of function.
-- function
-    - wide edit textarea 
-    - wide page
-    - narrow sidebar
-    - narrom between lines
-    - narrow between Indented lines (ul)
-    - become orange on top button
+- config.rb 
+- custom.css
 
 ## reveal.js template
 
 - slide_default.html is template html for reveal.js
+- <https://scepter914.github.io/blog/2018/20180210_revealjs_pandoc/> Japanese Blog 
 
