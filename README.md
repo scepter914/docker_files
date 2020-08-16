@@ -1,6 +1,6 @@
 ## Description
 
-- This is files for gollum ver5.0
+- Files for gollum ver5.0
 - When you start gollum, add option
 
 ```
